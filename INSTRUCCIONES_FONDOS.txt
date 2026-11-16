@@ -1,0 +1,23 @@
+FUTGOOL PLAYER - NEXORA TECH - FONDOS FOTOGRAFICOS
+
+Esta version agrega tres fondos incluidos en static/images:
+- PARTIDOS: estadio lleno con futbolistas
+- RANKING: gala de premios del futbol
+- COMUNIDAD: grupo de futbolistas
+
+Las imagenes son ilustraciones fotograficas generadas para el proyecto, no fotografias documentales de eventos reales.
+
+INSTALACION EN VISUAL STUDIO CODE
+1. Abre la carpeta nexora_futgool.
+2. En PowerShell ejecuta cada comando por separado:
+   py -m venv .venv
+   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+   .\.venv\Scripts\python.exe app.py
+3. Abre http://127.0.0.1:5000
+4. Revisa Partidos, Ranking y Comunidad.
+
+SI YA TIENES DATOS: conserva tu futgool.db y copialo a la carpeta nueva, sin sobrescribirlo.
+
+Archivos modificados: templates/base.html y static/style.css.
+Archivos nuevos: static/images/partidos.jpg, ranking.jpg y comunidad.jpg.
+No se modifico app.py ni static/chatbot.js.
